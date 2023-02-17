@@ -6,6 +6,8 @@ body {
   
   h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
   
   h2 {
@@ -28,6 +30,13 @@ body {
     padding: 20px;
     max-width: 500px;
   }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
 
   hr {
     height: 2px;
@@ -60,3 +69,27 @@ body {
   }
 
   /*FOOTER*/
+  footer {
+    font-size: 14px;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:visited {
+    color: rgb(24, 16, 16);
+  }
+
+  a:hover {
+    color: rgb(145, 109, 85);
+  }
+
+  a:active {
+    color: rgb(189, 148, 59);
+  }
+
+.address {
+    margin-bottom: 5px;
+}
+
